@@ -1,0 +1,65 @@
+
+
+        static Income EnterIncome()
+        {
+            bool dateTrigger = false;
+            DateTime dateIncome = DateTime.Now;
+
+            bool valueTrigger = false;
+            decimal valueIncome = 0;
+            do
+            {
+                try
+                {
+                    Console.WriteLine("Enter Income date (in format d/m/yyyy)");
+                    CultureInfo tt = new CultureInfo("fr-FR");
+                    dateIncome = DateTime.Parse(Console.ReadLine(), tt);
+                    if (dateIncome.Date > DateTime.Now.Date)
+                    {
+                        throw new Future();
+                    }
+                    dateTrigger = true;
+                }
+                catch (FormatException)
+                {
+                    Console.WriteLine("This is an invalid date!");
+                }
+                catch (Future ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+
+            }
+            while (!dateTrigger);
+            
+            Console.WriteLine("\nEnter Income description");
+            string descriptionIncome = Console.ReadLine();
+
+            do
+            {
+                try
+                {
+                    Console.WriteLine("\nEnter Income value");
+                    valueIncome = decimal.Parse(Console.ReadLine());
+                    if(valueIncome < 0)
+                    {
+                        throw new MinusValue();
+                    }
+                    valueTrigger = true;
+                }
+                catch (FormatException)
+                {
+                    Console.WriteLine("Please enter numirical value!");
+                }
+                catch(MinusValue ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+            }
+            while (!valueTrigger);
+            Console.WriteLine("\nIncome added");
+
+            return new Income(/*dateIncome, descriptionIncome, valueIncome*/);
+
+
+        }

@@ -1,0 +1,34 @@
+Income date: 1/2/2003
+Income description: ewqq
+Income value: 22
+
+Income date: 1/1/2000
+Income description: bla
+Income value: 12
+
+Income date: 2/2/2002
+Income description: sdf
+Income value: 12
+
+Income date: 2/2/2002
+Income description: sdf
+Income value: 22
+
+Expense date: 2/3/2003
+Expense description: das
+Expense value: 222222222222
+Expense type: Regular
+
+Income date: 2/3/2004
+Income description: fsfs
+Income value: 22
+
+Expense date: 2/3/2004
+Expense description: eqe
+Expense value: 44
+Expense type: Car
+
+Income date: 5/6/2009
+Income description: e
+Income value: 22222222222222
+

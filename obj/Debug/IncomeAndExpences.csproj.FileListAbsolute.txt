@@ -1,0 +1,14 @@
+F:\projects\IncomeAndExpences\bin\Debug\IncomeAndExpences.exe.config
+F:\projects\IncomeAndExpences\bin\Debug\IncomeAndExpences.exe
+F:\projects\IncomeAndExpences\bin\Debug\IncomeAndExpences.pdb
+F:\projects\IncomeAndExpences\obj\Debug\IncomeAndExpences.csprojAssemblyReference.cache
+F:\projects\IncomeAndExpences\obj\Debug\IncomeAndExpences.csproj.CoreCompileInputs.cache
+F:\projects\IncomeAndExpences\obj\Debug\IncomeAndExpences.exe
+F:\projects\IncomeAndExpences\obj\Debug\IncomeAndExpences.pdb
+E:\projects\IncomeAndExpences\bin\Debug\IncomeAndExpences.exe.config
+E:\projects\IncomeAndExpences\bin\Debug\IncomeAndExpences.exe
+E:\projects\IncomeAndExpences\bin\Debug\IncomeAndExpences.pdb
+E:\projects\IncomeAndExpences\obj\Debug\IncomeAndExpences.csprojAssemblyReference.cache
+E:\projects\IncomeAndExpences\obj\Debug\IncomeAndExpences.csproj.CoreCompileInputs.cache
+E:\projects\IncomeAndExpences\obj\Debug\IncomeAndExpences.exe
+E:\projects\IncomeAndExpences\obj\Debug\IncomeAndExpences.pdb
